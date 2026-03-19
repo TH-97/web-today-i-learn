@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="코브" />
+    <meta property="og:description" content="코브의 작품" />
+    <meta property="og:image" content="./images/thumbnail.jpg" />
 
     <title>Today I Learn</title>
     <link rel="stylesheet" href="./css/main.css" />
@@ -30,7 +30,10 @@
       <div class="profile-card">
         <div class="profile-image">
           <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img
+            src="./images/KakaoTalk_Photo_2026-03-19-09-48-05.jpeg"
+            alt="프로필 사진"
+          />
         </div>
         <div class="profile-info">
           <h1>닉네임</h1>
@@ -54,19 +57,19 @@
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>코브</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>intp</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>독서</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>갈비찜</td>
           </tr>
         </table>
       </section>
@@ -74,14 +77,43 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">잡다한 갤러리</p>
         <div class="gallery-grid">
           <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-24_001.jpeg"
+            alt=""
+          />
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-24_002.jpeg"
+            alt=""
+          />
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-24_003.jpeg"
+            alt=""
+          />
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-24_004.jpeg"
+            alt=""
+          />
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-24_004.jpeg"
+            alt=""
+          />
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-25_006.jpeg"
+            alt=""
+          />/
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-25_006.jpeg"
+            alt=""
+          />/
+          <img
+            src="/images/KakaoTalk_Image_2026-03-19-09-48-25_005.jpeg"
+            alt=""
+          />
+          <img src="/images/알라딘_2019년_포스터.jpg" alt="" />/
+          <img src="/images/special0701_00m.png" alt="" />/
         </div>
       </section>
 
@@ -94,10 +126,40 @@
           <article class="work-card">
             <div class="work-thumbnail">
               <!-- 작품 이미지 -->
+              <img
+                src="/images/IpVFAbMI-1wGJKDGgocgKvL9Cslb0ya_F5Grc0TtMBKF3r2D0csRjowraUMbWvpBZEjzlJzKVP77eQ5axZUvhg.webp"
+                alt="베가본드"
+              />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>베가본드</h3>
+              <p>한 사무라이가 그려낸 인생</p>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <!-- 작품 이미지 -->
+              <iframe
+                height="180"
+                src="https://www.youtube.com/embed/EiFcZjhmFDA?si=a7mTKER6od_PwMRx"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="work-info">
+              <h3>베가본드</h3>
+              <p>한 사무라이가 그려낸 인생</p>
             </div>
           </article>
         </div>
@@ -116,11 +178,22 @@
           </div>
           <div class="form-group">
             <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
+            <input
+              type="text"
+              id="til-title"
+              name="title"
+              placeholder="학습 주제를 입력하세요"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            <textarea
+              id="til-content"
+              name="content"
+              placeholder="오늘 배운 내용을 정리해주세요"
+              required
+            ></textarea>
           </div>
           <div class="form-actions">
             <button type="submit">등록</button>
@@ -134,11 +207,13 @@
           <article class="til-item">
             <time>2026-03-15</time>
             <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
+            <p>
+              header, nav, main, section, article, footer 등 시멘틱 태그의
+              역할과 사용법을 배웠다.
+            </p>
           </article>
         </div>
       </section>
-
     </main>
 
     <footer>
